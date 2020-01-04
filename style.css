@@ -300,6 +300,9 @@ button:focus {
 	font-weight: 300;
 	margin-bottom: 15px;
 }
+#register{
+	background:linear-gradient(lightblue,lightpink) ;
+}
 
 
 .mu-hero-featured-content h2 {
@@ -398,7 +401,7 @@ button:focus {
 
 
 #mu-about {
-	background-color: #fff;
+	background:linear-gradient(lightblue,lightgreen);
 	display: inline;
 	float: left;
 	width: 100%;
