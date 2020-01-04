@@ -135,7 +135,7 @@ kbd {
 	background-color: #ddd;
 	padding: 4px 6px;
 	border-radius: 2px;
-	color: ;
+	color: black;
 }
 
 address {
@@ -447,8 +447,8 @@ button:focus {
 /*--------------------*/
 
 
-#mu-video {
-	background-image: url("assets/images/about-video-bg.jpg");
+#mu-brochure {
+	background-image: url("assets/images/about-brochure-bg.jpg");
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -458,14 +458,14 @@ button:focus {
 	width: 100%;
 }
 
-.mu-video-overlay {
+.mu-brochure-overlay {
 	display: inline;
 	float: left;
 	opacity: 0.85;
 	width: 100%;
 }
 
-.mu-video-area {
+.mu-brochure-area {
 	display: inline;
 	float: left;
 	padding: 200px 0;
@@ -473,18 +473,18 @@ button:focus {
 	width: 100%;
 }
 
-.mu-video-area h2 {
+.mu-brochure-area h2 {
 	color: #fff;
 }
 
-.mu-video-content {
+.mu-brochure-content {
 	display: inline;
 	float: left;
 	width: 100%;
 }
 
-.mu-video-play-btn,
-.mu-video-close-btn {
+.mu-brochure-play-btn,
+.mu-brochure-close-btn {
 	color: #fff;
 	font-size: 22px;
 	border: 2px solid #fff;
@@ -500,14 +500,14 @@ button:focus {
 	transition: all 0.5s;
 }
 
-.mu-video-play-btn:hover,
-.mu-video-play-btn:focus {
+.mu-brochure-play-btn:hover,
+.mu-brochure-play-btn:focus {
 	color: #fff;
 	-webkit-transform: scale(1.2);
 	        transform: scale(1.2);
 }
 
-.mu-video-close-btn {
+.mu-brochure-close-btn {
 	border-radius: 50%;
 	color: #fff;
 	font-size: 18px;
@@ -526,14 +526,14 @@ button:focus {
 	width: 50px;
 }
 
-.mu-video-close-btn:hover,
-.mu-video-close-btn:focus {
+.mu-brochure-close-btn:hover,
+.mu-brochure-close-btn:focus {
 	color: #fff;
 	-webkit-transform: scale(1.2);
 	        transform: scale(1.2);
 }
 
-.mu-video-iframe-area {
+.mu-brochure-iframe-area {
 	background-color: rgba(0,0,0,0.84);
 	position: fixed;
 	top: 0;
@@ -551,11 +551,11 @@ button:focus {
 	transition: all 0.5s;
 }
 
-.mu-video-iframe-display {
+.mu-brochure-iframe-display {
 	display: block;
 }
 
-.mu-video-iframe-area iframe {
+.mu-brochure-iframe-area iframe {
 
 }
 
@@ -1357,11 +1357,11 @@ button:focus {
 		padding: 0 150px;
 	}
 
-	.mu-video-iframe-area {
+	.mu-brochure-iframe-area {
 		padding: 16% 0;
 	}
 
-	.mu-video-close-btn {
+	.mu-brochure-close-btn {
 		top: 5%;
 		right: 5%;
 		margin-top: 0;
@@ -1441,11 +1441,11 @@ button:focus {
 		margin-left: 0;
 	}
 
-	.mu-video-iframe-area {
+	.mu-brochure-iframe-area {
 		padding: 16% 5%;
 	}
 
-	.mu-video-iframe-area iframe {
+	.mu-brochure-iframe-area iframe {
 		width: 100%;
 	}
 
@@ -1515,7 +1515,7 @@ button:focus {
 		padding: 0 15px;
 	}
 
-	.mu-video-close-btn {
+	.mu-brochure-close-btn {
 		font-size: 16px;
 		height: 40px;
 		line-height: 35px;
@@ -1545,11 +1545,11 @@ button:focus {
 		padding: 0;
 	}
 
-	.mu-video-iframe-area {
+	.mu-brochure-iframe-area {
 		padding: 5% 5%;
 	}
 
-	.mu-video-iframe-area iframe {
+	.mu-brochure-iframe-area iframe {
 		width: 100%;
 		height: 100%;
 	}
@@ -1614,7 +1614,7 @@ button:focus {
 		margin: 0 5px;
 	}
 	
-	.mu-video-close-btn {
+	.mu-brochure-close-btn {
 		top: 2%;
 		right: 5%;
 		height: 40px;
@@ -1627,15 +1627,15 @@ button:focus {
 		top: 30px;
 	}
 
-	.mu-video-area {
+	.mu-brochure-area {
 		padding: 100px 0;
 	}
 
-	.mu-video-iframe-area {
+	.mu-brochure-iframe-area {
 		padding: 10% 5%;
 	}
 
-	.mu-video-iframe-area iframe {
+	.mu-brochure-iframe-area iframe {
 		height: 250px;
 	}
 
@@ -1718,15 +1718,15 @@ button:focus {
 		line-height: 16px;
 	}
 
-	.mu-video-area {
+	.mu-brochure-area {
 		padding: 50px 0;
 	}
 
-	.mu-video-iframe-area {
+	.mu-brochure-iframe-area {
 		padding: 15% 5%;
 	}
 
-	.mu-video-play-btn, .mu-video-close-btn {
+	.mu-brochure-play-btn, .mu-brochure-close-btn {
 		font-size: 18px;
 		width: 50px;
 		height: 50px;
@@ -1750,7 +1750,7 @@ button:focus {
 
 @media (max-width: 320px) {
 
-	.mu-video-iframe-area {
+	.mu-brochure-iframe-area {
 		padding: 30% 5%;
 	}
 
